@@ -1,10 +1,73 @@
 @import 'variables';
 
-body{
-	height: 8000px;
-	background-color: orange;
-}
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #000;
+		margin:0;
+		padding:0;
+	}
 
-p{
-	color: $perfect-pink;
-}
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	#section0,
+	#section1,
+	#section2,
+	#section3{
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	/* Defining each sectino background and styles
+	* --------------------------------------- */
+	#section0{
+		background: url(../imgs/img1.jpg) no-repeat;
+		background-size: cover;
+		background-position: center top;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		padding: 30% 0 0 0;
+	}
+	#section1{
+		background: url(../imgs/img2.jpg) no-repeat;
+		background-size: cover;
+		background-position: center top;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		padding: 6% 0 0 0;
+	}
+	#section2{
+		background: url(../imgs/img3.jpg) no-repeat;
+		background-size: cover;
+		background-position: center top;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		padding: 6% 0 0 0;
+	}
+
+	#section3{
+		background: url(../imgs/img1.jpg) no-repeat;
+		background-size: cover;
+		background-position: center top;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		padding: 6% 0 0 0;
+	}
+
